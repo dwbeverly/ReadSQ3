@@ -11,7 +11,7 @@ SQLite is becoming more popular as a lightweight, RDBMS for embedding databases 
 *  Syntax
 
   ```python
-  python ReadSQ3 (database) "(query)"
+  python ReadSQ3.py (database) "(query)"
   ```
   
 *  You must specify a .sq3 or .db databse name when you execute the script. 
@@ -21,7 +21,7 @@ SQLite is becoming more popular as a lightweight, RDBMS for embedding databases 
 *  Example
 
   ```python
-  python ReadSQ3 chinook.db "SELECT * FROM GENRES"
+  python ReadSQ3.py chinook.db "SELECT * FROM GENRES"
   ```
 
 
